@@ -18,7 +18,6 @@ runs:
     - ${{ inputs.owner }}
     - ${{ inputs.repo }} 
 
-
 # runs: 
 #   using: 'docker'
 #   image: 'docker://geovana10/list-branches-docker-action:v1'
