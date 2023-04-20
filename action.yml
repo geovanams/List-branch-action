@@ -16,4 +16,4 @@ runs:
   image: 'docker://geovana10/list-branches-action:v1'
   args:
     - ${{ inputs.owner }}
-    - ${{ inputs.repos }} 
+    - ${{ inputs.repo }} 
