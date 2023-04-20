@@ -10,7 +10,7 @@ jobs:
     - name: List Branches Docker Action
       # You may pin to the exact commit or the version.
       # uses: geovanams/List-branches-action@c777f415d50a5291b2060cfbd65803e40e52ea91
-      uses: geovanams/List-branches-action@v3
+      uses: geovanams/List-branches-action@main
       with:
         # Sua organização ou usuário github
         owner: geovanams
