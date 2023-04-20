@@ -12,12 +12,8 @@ inputs:
     description: 'Nome do repositório' # que possui as branches a serem listadas
     required: true
 runs:
-   using: 'docker'
-   image: 'docker://geovana10/list-branches-action:v1'
+  using: 'docker'
+  image: 'docker://geovana10/list-branches-action:v1'
   args:
     - ${{ inputs.owner }}
-    - ${{ inputs.repo }} 
-
-# runs: 
-#   using: 'docker'
-#   image: 'docker://geovana10/list-branches-docker-action:v1'
+    - ${{ inputs.repos }} 
